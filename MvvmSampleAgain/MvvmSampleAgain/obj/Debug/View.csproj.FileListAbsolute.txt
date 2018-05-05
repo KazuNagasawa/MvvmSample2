@@ -1,0 +1,12 @@
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain\Bin\Debug\MvvmSampleAgain.dll
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain\Bin\Debug\MvvmSampleAgain.pdb
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain\Bin\Debug\AppManifest.xaml
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain\Bin\Debug\MvvmSampleAgain.xap
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain\Bin\Debug\MvvmSampleAgainTestPage.html
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain\obj\Debug\View.csprojResolveAssemblyReference.cache
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain\obj\Debug\App.g.cs
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain\obj\Debug\MainPage.g.cs
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain\obj\Debug\MvvmSampleAgain.g.resources
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain\obj\Debug\MvvmSampleAgain.dll
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain\obj\Debug\MvvmSampleAgain.pdb
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain\obj\Debug\XapCacheFile.xml

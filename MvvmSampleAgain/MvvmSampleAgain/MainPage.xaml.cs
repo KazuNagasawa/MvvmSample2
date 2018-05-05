@@ -10,19 +10,22 @@ using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using System.Collections.ObjectModel;
+using MvvmSampleAgainModel;
 
 namespace MvvmSampleAgain
 {
     public partial class MainPage : UserControl
     {
-        private ObservableCollection<BMIRecord> bmiRecords = new ObservableCollection<BMIRecord>();
-        private int id = 0;
+        //モデルを保持する
+        private MainModel model = new MainModel();
+
 
         public MainPage()
         {
             InitializeComponent();
 
-            this.RecordListBox.ItemsSource = this.bmiRecords;
+            //モデルのRecordsプロパティをリストボックスにセットする
+            this.RecordListBox.ItemsSource = this.model.Records;
 
             this.CalcButton.Click += this.CalcButton_Click;
         }
@@ -59,20 +62,7 @@ namespace MvvmSampleAgain
                 return;
             }
 
-            // BMIを計算
-            double mHeight = cmHeight / 100;
-            double bmi = weight / (mHeight * mHeight);
-
-            // BMIRecordクラスを生成
-            var record = new BMIRecord();
-            record.ID = this.id++;
-            record.DateTime = DateTime.Now;
-            record.Height = cmHeight;
-            record.Weight = weight;
-            record.BMI = bmi;
-
-            // データグリッドに追加
-            this.bmiRecords.Add(record);
+            this.model.AddRecord(cmHeight, weight);
         }
     }
 }
