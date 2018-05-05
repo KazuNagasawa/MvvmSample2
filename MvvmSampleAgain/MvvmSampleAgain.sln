@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmSampleAgain.Web", "Mvvm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmSampleAgainModel", "MvvmSampleAgainModel\MvvmSampleAgainModel.csproj", "{53FE63BC-311B-4A9B-86B2-6468C600710C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmSampleAgainViewModel", "MvvmSampleAgainViewModel\MvvmSampleAgainViewModel.csproj", "{746B63B5-2529-428F-AFF0-6141B8ACC0EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{53FE63BC-311B-4A9B-86B2-6468C600710C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53FE63BC-311B-4A9B-86B2-6468C600710C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53FE63BC-311B-4A9B-86B2-6468C600710C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{746B63B5-2529-428F-AFF0-6141B8ACC0EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746B63B5-2529-428F-AFF0-6141B8ACC0EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746B63B5-2529-428F-AFF0-6141B8ACC0EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746B63B5-2529-428F-AFF0-6141B8ACC0EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
