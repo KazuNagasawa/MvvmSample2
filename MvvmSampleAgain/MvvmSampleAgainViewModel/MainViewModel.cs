@@ -1,21 +1,33 @@
-﻿using System;
-using System.Net;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Documents;
-using System.Windows.Ink;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Animation;
-using System.Windows.Shapes;
+﻿using Microsoft.Practices.Prism.Commands;
+using MvvmSampleAgainModel;
+using System;
+using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Windows;
 
 namespace MvvmSampleAgainViewModel
 {
     public class MainViewModel:ViewModelBase
     {
+        private DelegateCommand addRecordCommand;
         private string heightTextBox_Text = string.Empty;
         private string weightTextBox_Text = string.Empty;
+        private MainModel model = new MainModel();
+
+        public MainViewModel()
+        {
+            this.addRecordCommand = new DelegateCommand(this.AddRecord);
+        }
+
+        /// <summary>
+        /// 計算ボタンのクリックイベントに対応するコマンド
+        /// </summary>
+        public DelegateCommand AddRecordCommand
+        {
+            get { return this.addRecordCommand; }
+        }
+
 
         [RegularExpression(
             @"^[0-9]+(\.)?[0-9]*$",
@@ -56,6 +68,34 @@ namespace MvvmSampleAgainViewModel
                     this.RaisePropertyChanged("WeightTextBox_Text");
                     this.RaiseErrorChanged("WeightTextBox_Text");
                 }
+            }
+        }
+
+        public ObservableCollection<BMIRecord> Records
+        {
+            get { return this.model.Records; }
+        }
+
+
+        /// <summary>
+        /// BMIRecordを履歴に追加する
+        /// </summary>
+        public void AddRecord()
+        {
+            //値が入力されているかチェックする
+            var errMessages = this.Validate();
+            if (errMessages.Count() == 0)
+            {
+                //BMIを履歴に追加する
+                double cmHeight = double.Parse(this.HeightTextBox_Text);
+                double weight = double.Parse(this.WeightTextBox_Text);
+                this.model.AddRecord(cmHeight, weight);
+            }
+            else
+            {
+                //エラーメッセージを表示する
+                string msg = string.Join(Environment.NewLine, errMessages);
+                MessageBox.Show(msg);
             }
         }
     }

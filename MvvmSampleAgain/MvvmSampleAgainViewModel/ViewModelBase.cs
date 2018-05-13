@@ -1,19 +1,10 @@
 ﻿using System;
-using System.Net;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Documents;
-using System.Windows.Ink;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Animation;
-using System.Windows.Shapes;
-using System.ComponentModel;
 using System.Collections;
 using System.Collections.Generic;
-using System.Reflection;
-using System.Linq;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Reflection;
 
 namespace MvvmSampleAgainViewModel
 {
@@ -67,11 +58,10 @@ namespace MvvmSampleAgainViewModel
         {
             IEnumerable<string> result = new List<string>();
 
-            //ValidationAttributeが付与されているプロパティの情報を収集する
+            // ValidationAttributeが付与されているプロパティの情報を収集する。
             IEnumerable<PropertyInfo> propertyInfos = this.GetType()
                                                     .GetProperties()
-                                                    .Where(propertyInfo =>
-                                                    this.HasValidationAttribute(propertyInfo));
+                                                    .Where(propertyInfo => this.HasValidationAttribute(propertyInfo));
 
             foreach (var propertyInfo in propertyInfos)
             {
@@ -89,10 +79,10 @@ namespace MvvmSampleAgainViewModel
         /// <param name="propertyName"></param>
         protected void RaisePropertyChanged(string propertyName)
         {
-            if(this.ErrorsChanged != null)
+            if(this.PropertyChanged != null)
             {
-                var e = new DataErrorsChangedEventArgs(propertyName);
-                this.ErrorsChanged(this, e);
+                var e = new PropertyChangedEventArgs(propertyName);
+                this.PropertyChanged(this, e);
             }
         }
 

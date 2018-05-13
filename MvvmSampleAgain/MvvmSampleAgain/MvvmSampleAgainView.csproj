@@ -59,6 +59,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Practices.Prism">
+      <HintPath>..\..\..\..\Desktop\C#\MVVMSample1\packages\Prism.4.1.0.0\lib\SL5\Microsoft.Practices.Prism.dll</HintPath>
+    </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="System.Windows" />
     <Reference Include="system" />
@@ -73,7 +76,6 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="BMIRecord.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -96,6 +98,10 @@
     <ProjectReference Include="..\MvvmSampleAgainModel\MvvmSampleAgainModel.csproj">
       <Project>{53fe63bc-311b-4a9b-86b2-6468c600710c}</Project>
       <Name>MvvmSampleAgainModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MvvmSampleAgainViewModel\MvvmSampleAgainViewModel.csproj">
+      <Project>{746b63b5-2529-428f-aff0-6141b8acc0ec}</Project>
+      <Name>MvvmSampleAgainViewModel</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
