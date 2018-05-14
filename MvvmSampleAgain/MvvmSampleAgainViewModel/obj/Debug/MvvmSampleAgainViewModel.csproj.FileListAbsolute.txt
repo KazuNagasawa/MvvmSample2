@@ -1,11 +1,14 @@
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainViewModel\Bin\Debug\MvvmSampleAgainViewModel.dll
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainViewModel\Bin\Debug\MvvmSampleAgainViewModel.pdb
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainViewModel\Bin\Debug\Microsoft.Practices.Prism.dll
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainViewModel\Bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainViewModel\Bin\Debug\MvvmSampleAgainModel.dll
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainViewModel\Bin\Debug\System.ComponentModel.DataAnnotations.dll
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainViewModel\Bin\Debug\System.Windows.Controls.dll
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainViewModel\Bin\Debug\System.Windows.Interactivity.dll
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainViewModel\Bin\Debug\MvvmSampleAgainModel.pdb
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainViewModel\Bin\Debug\Microsoft.Practices.Prism.xml
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainViewModel\Bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainViewModel\Bin\Debug\System.ComponentModel.DataAnnotations.xml
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainViewModel\Bin\Debug\System.Windows.Controls.xml
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainViewModel\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
@@ -87,6 +90,3 @@ C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainViewModel
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainViewModel\obj\Debug\MvvmSampleAgainViewModel.csprojResolveAssemblyReference.cache
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainViewModel\obj\Debug\MvvmSampleAgainViewModel.dll
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainViewModel\obj\Debug\MvvmSampleAgainViewModel.pdb
-C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainViewModel\Bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
-C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainViewModel\Bin\Debug\System.Windows.Interactivity.dll
-C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainViewModel\Bin\Debug\Microsoft.Practices.Prism.Interactivity.xml

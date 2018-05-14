@@ -3,4 +3,5 @@ C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain.Web\bin\
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain.Web\bin\MvvmSampleAgain.Web.pdb
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain.Web\obj\Debug\MvvmSampleAgain.Web.dll
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain.Web\obj\Debug\MvvmSampleAgain.Web.pdb
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain.Web\bin\System.Windows.Interactivity.dll
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain.Web\obj\Debug\MvvmSampleAgain.Web.csprojResolveAssemblyReference.cache

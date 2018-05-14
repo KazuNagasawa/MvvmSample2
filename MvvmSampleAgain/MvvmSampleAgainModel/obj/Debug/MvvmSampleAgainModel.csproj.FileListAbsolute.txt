@@ -2,4 +2,3 @@ C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainModel\Bin
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainModel\Bin\Debug\MvvmSampleAgainModel.pdb
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainModel\obj\Debug\MvvmSampleAgainModel.dll
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainModel\obj\Debug\MvvmSampleAgainModel.pdb
-C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainModel\obj\Debug\MvvmSampleAgainModel.csprojResolveAssemblyReference.cache

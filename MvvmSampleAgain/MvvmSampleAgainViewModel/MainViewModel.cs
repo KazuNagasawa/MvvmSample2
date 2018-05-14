@@ -99,12 +99,12 @@ namespace MvvmSampleAgainViewModel
                 double weight = double.Parse(this.WeightTextBox_Text);
                 this.model.AddRecord(cmHeight, weight);
             }
-            else
-            {
-                //エラーメッセージを表示する
-                string msg = string.Join(Environment.NewLine, errMessages);
-                MessageBox.Show(msg);
-            }
+            //else
+            //{
+            //    //エラーメッセージを表示する
+            //    string msg = string.Join(Environment.NewLine, errMessages);
+            //    MessageBox.Show(msg);
+            //}
         }
     }
 }

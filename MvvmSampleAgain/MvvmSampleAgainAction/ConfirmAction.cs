@@ -1,18 +1,22 @@
-﻿using System;
-using System.Net;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Documents;
-using System.Windows.Ink;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Animation;
-using System.Windows.Shapes;
+﻿using System.Windows;
+using System.Windows.Interactivity;
+using Microsoft.Practices.Prism.Interactivity.InteractionRequest;
 
 namespace MvvmSampleAgainAction
 {
-    public class ConfirmAction
+    public class ConfirmAction : TriggerAction<DependencyObject>
     {
+        protected override void Invoke(object parameter)
+        {
+            //イベント引数となるContextを取得する
+            var args = parameter as InteractionRequestedEventArgs;
+            var confirmation = args.Context as Confirmation;
 
+            //MessageBoxを表示する
+            MessageBox.Show(confirmation.Content as string,
+                confirmation.Title as string,
+                MessageBoxButton.OK);
+        }
     }
 }
+ 
