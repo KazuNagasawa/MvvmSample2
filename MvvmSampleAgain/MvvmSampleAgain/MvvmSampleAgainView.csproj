@@ -59,6 +59,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Expression.Interactions">
+      <HintPath>..\..\..\..\Desktop\C#\MVVMSample1\packages\Prism.4.1.0.0\lib\SL5\Microsoft.Expression.Interactions.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Practices.Prism">
       <HintPath>..\..\..\..\Desktop\C#\MVVMSample1\packages\Prism.4.1.0.0\lib\SL5\Microsoft.Practices.Prism.dll</HintPath>
     </Reference>
@@ -95,6 +98,10 @@
     <None Include="Properties\AppManifest.xml" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MvvmSampleAgainAction\MvvmSampleAgainAction.csproj">
+      <Project>{6a596b88-3e6f-4036-9b09-c9ed13f96d2d}</Project>
+      <Name>MvvmSampleAgainAction</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MvvmSampleAgainModel\MvvmSampleAgainModel.csproj">
       <Project>{53fe63bc-311b-4a9b-86b2-6468c600710c}</Project>
       <Name>MvvmSampleAgainModel</Name>

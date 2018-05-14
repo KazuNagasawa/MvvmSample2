@@ -4,8 +4,10 @@
     <AssemblyPart x:Name="Microsoft.Practices.Prism" Source="Microsoft.Practices.Prism.dll" />
     <AssemblyPart x:Name="MvvmSampleAgainModel" Source="MvvmSampleAgainModel.dll" />
     <AssemblyPart x:Name="MvvmSampleAgainViewModel" Source="MvvmSampleAgainViewModel.dll" />
+    <AssemblyPart x:Name="Microsoft.Practices.Prism.Interactivity" Source="Microsoft.Practices.Prism.Interactivity.dll" />
     <AssemblyPart x:Name="System.ComponentModel.DataAnnotations" Source="System.ComponentModel.DataAnnotations.dll" />
     <AssemblyPart x:Name="System.Windows.Controls" Source="System.Windows.Controls.dll" />
+    <AssemblyPart x:Name="System.Windows.Interactivity" Source="System.Windows.Interactivity.dll" />
     <AssemblyPart Source="ja/System.ComponentModel.DataAnnotations.resources.dll" />
     <AssemblyPart Source="ja/System.Windows.Controls.resources.dll" />
   </Deployment.Parts>

@@ -87,3 +87,6 @@ C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainViewModel
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainViewModel\obj\Debug\MvvmSampleAgainViewModel.csprojResolveAssemblyReference.cache
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainViewModel\obj\Debug\MvvmSampleAgainViewModel.dll
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainViewModel\obj\Debug\MvvmSampleAgainViewModel.pdb
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainViewModel\Bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainViewModel\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainViewModel\Bin\Debug\Microsoft.Practices.Prism.Interactivity.xml

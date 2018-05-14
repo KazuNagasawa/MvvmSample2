@@ -24,10 +24,5 @@ namespace MvvmSampleAgain
             InitializeComponent();
             this.DataContext = new MainViewModel();
         }
-
-        private void CalcButton_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }

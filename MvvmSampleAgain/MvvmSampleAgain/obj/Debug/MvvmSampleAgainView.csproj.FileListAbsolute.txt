@@ -96,3 +96,6 @@ C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain\Bin\Debu
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain\Bin\Debug\vi\System.Windows.Controls.resources.dll
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain\Bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain\Bin\Debug\Microsoft.Practices.Prism.Interactivity.xml

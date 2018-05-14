@@ -1,0 +1,5 @@
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\ConfirmAction\bin\Debug\ConfirmAction.dll
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\ConfirmAction\bin\Debug\ConfirmAction.pdb
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\ConfirmAction\obj\Debug\ConfirmAction.csprojResolveAssemblyReference.cache
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\ConfirmAction\obj\Debug\ConfirmAction.dll
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\ConfirmAction\obj\Debug\ConfirmAction.pdb

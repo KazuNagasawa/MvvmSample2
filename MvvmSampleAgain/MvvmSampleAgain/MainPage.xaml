@@ -6,6 +6,7 @@
     mc:Ignorable="d"
     xmlns:prism="http://www.codeplex.com/prism"
     xmlns:vm="clr-namespace:MvvmSampleAgainViewModel;assembly=MvvmSampleAgainViewModel"
+    xmlns:myAction="clr-namespace:MvvmSampleAgainAction;assembly=MvvmSampleAgainAction"    
     d:DesignHeight="300" d:DesignWidth="400">
 
     <Grid x:Name="LayoutRoot" Background="White">
@@ -19,7 +20,7 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-
+                
         <StackPanel Orientation="Horizontal" Margin="5">
             <TextBlock Text="身長" VerticalAlignment="Center" Width="30"/>
             <TextBox x:Name="HeightTextBox" Width="150" Text="{Binding HeightTextBox_Text,Mode=TwoWay}"/>

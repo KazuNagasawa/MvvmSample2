@@ -5,11 +5,13 @@ using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Windows;
+using Microsoft.Practices.Prism.Interactivity.InteractionRequest;
 
 namespace MvvmSampleAgainViewModel
 {
     public class MainViewModel:ViewModelBase
     {
+        private InteractionRequest<Confirmation> alertRequest;
         private DelegateCommand addRecordCommand;
         private string heightTextBox_Text = string.Empty;
         private string weightTextBox_Text = string.Empty;
@@ -17,7 +19,13 @@ namespace MvvmSampleAgainViewModel
 
         public MainViewModel()
         {
+            this.alertRequest = new InteractionRequest<Confirmation>();
             this.addRecordCommand = new DelegateCommand(this.AddRecord);
+        }
+
+        public IInteractionRequest AlerttRequest
+        {
+            get { return this.alertRequest; }
         }
 
         /// <summary>
