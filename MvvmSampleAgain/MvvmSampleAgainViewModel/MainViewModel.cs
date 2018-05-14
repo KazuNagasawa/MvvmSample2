@@ -23,7 +23,7 @@ namespace MvvmSampleAgainViewModel
             this.addRecordCommand = new DelegateCommand(this.AddRecord);
         }
 
-        public IInteractionRequest AlerttRequest
+        public IInteractionRequest AlertRequest
         {
             get { return this.alertRequest; }
         }
@@ -99,12 +99,14 @@ namespace MvvmSampleAgainViewModel
                 double weight = double.Parse(this.WeightTextBox_Text);
                 this.model.AddRecord(cmHeight, weight);
             }
-            //else
-            //{
-            //    //エラーメッセージを表示する
-            //    string msg = string.Join(Environment.NewLine, errMessages);
-            //    MessageBox.Show(msg);
-            //}
+            else
+            {
+                //Viewにエラーメッセージダイアログ表示リクエストを投げる
+                var confirmation = new Confirmation();
+                confirmation.Title = "バリデーションエラー";
+                confirmation.Content = string.Join(Environment.NewLine, errMessages);
+                alertRequest.Raise(confirmation);
+            }
         }
     }
 }
