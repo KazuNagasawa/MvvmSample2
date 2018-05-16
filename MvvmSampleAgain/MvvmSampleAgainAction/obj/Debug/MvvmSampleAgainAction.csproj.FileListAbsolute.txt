@@ -47,3 +47,4 @@ C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainAction\Bi
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainAction\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainAction\obj\Debug\MvvmSampleAgainAction.dll
 C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainAction\obj\Debug\MvvmSampleAgainAction.pdb
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainAction\obj\Debug\MvvmSampleAgainAction.csprojResolveAssemblyReference.cache

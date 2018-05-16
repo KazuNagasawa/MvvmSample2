@@ -1,0 +1,5 @@
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainModel\Bin\Release\MvvmSampleAgainModel.dll
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainModel\Bin\Release\MvvmSampleAgainModel.pdb
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainModel\obj\Release\MvvmSampleAgainModel.csprojResolveAssemblyReference.cache
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainModel\obj\Release\MvvmSampleAgainModel.dll
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgainModel\obj\Release\MvvmSampleAgainModel.pdb

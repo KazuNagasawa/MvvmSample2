@@ -1,0 +1,7 @@
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain.Web\bin\MvvmSampleAgain.Web.dll.config
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain.Web\bin\MvvmSampleAgain.Web.dll
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain.Web\bin\MvvmSampleAgain.Web.pdb
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain.Web\bin\System.Windows.Interactivity.dll
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain.Web\obj\Release\MvvmSampleAgain.Web.csprojResolveAssemblyReference.cache
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain.Web\obj\Release\MvvmSampleAgain.Web.dll
+C:\Users\Nagasawa\Documents\MvvmSample2\MvvmSampleAgain\MvvmSampleAgain.Web\obj\Release\MvvmSampleAgain.Web.pdb
